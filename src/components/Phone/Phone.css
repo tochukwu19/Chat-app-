@@ -1,0 +1,140 @@
+/* iPhone X Frame code */
+.outer-Frame{
+    height: 570px;
+    width: 290px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    box-shadow: 13px 11px 90px -30px;
+    margin-right: 50px;
+}
+
+.inner-Frame{
+    height: 540px;
+    width: 265px;
+    background-color: #F5F3F8;
+    border-radius: 24px;
+    z-index: 4;
+}
+
+.notch{
+    width: 140px;
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+    height: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(to right, #8E3BFE, #DE43FF );
+    z-index: 4;
+    position: relative;
+    top: -25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.header h4{
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 1.5px;
+}
+
+.header p{
+    font-size: 10px;
+    margin: 1.5px;
+    color: #eee;
+}
+
+.avatar{
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    margin: 0 5px 0 5px;
+}
+
+.arrow-left,
+.more{
+    height: 15px;
+}
+
+.next{
+    height: 25px;
+    position: absolute;
+    left: 210px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.messages{
+    position: relative;
+    top: -26px;
+    margin: 6px;
+    padding-top: 5px;
+}
+
+.dog-container{
+    margin-left: auto;
+    width: max-content;
+}
+
+.dogs{
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 6.5px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+}
+
+.send-input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.send-input::placeholder{
+    font-size: 12px;
+    color: lightgray;
+}
+
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, #8E3BFE, #DE43FF );
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12.3px;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+.pay div{
+    border: 1px solid #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
