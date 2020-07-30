@@ -1,13 +1,11 @@
 import React from 'react'
 import Phone from "./components/Phone/Phone"
-import "./App.css";
-import svg from "./images/Clip.svg"
+import "./App.css"
 
 const App = () => {
   return(
     <>
       {/* App container */}
-      {/* <img src={svg} alt="svg"/> */}
       <div className="whole-app">
         <Phone />
         <div className="landing-text">

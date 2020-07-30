@@ -34,3 +34,7 @@ body{
     color: darkgrey;
     line-height: 1.5;
 }
+
+@media only screen and (max-width: 900px){
+    
+}
