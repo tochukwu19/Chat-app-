@@ -36,5 +36,22 @@ body{
 }
 
 @media only screen and (max-width: 900px){
-    
+    .whole-app{
+        flex-direction: column;
+        height: auto;
+        background-size: 200px 600px;
+        background-position: right 200px;
+    }
+    body{
+        background-size: 300px 600px;
+    }
+    .landing-text{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:470px){
+    .landing-text{
+        width: 300px;
+    }
 }
